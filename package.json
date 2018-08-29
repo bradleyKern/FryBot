@@ -1,0 +1,12 @@
+{
+  "name": "Fry-Bot",
+  "version": "1.0.0",
+  "description": "A true blue Frycook if ever there was one.",
+  "main": "FryBot.js",
+  "author": "Korremarr",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.4.2",
+    "winston": "^3.0.0"
+  }
+}
