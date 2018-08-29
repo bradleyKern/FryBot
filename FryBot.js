@@ -39,5 +39,5 @@ client.on('message', message => { // This is where we will handle all message ev
 });
 
 client.on('guildMemberAdd', member => {
-	message.channel.send("Whoa there " + member.user.username + " , I'm gonna need to see some ID there buddy.", {files: ["https://3.imimg.com/data3/IC/FW/MY-13121895/bouncer-security-services-500x500.jpg"]});
+	message.channel.send("Whoa there " + member.user.username + " , I'm gonna need to see some ID there buddy.", {files: ["bouncer.jpg"]});
 });
