@@ -36,6 +36,12 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("WAH");	
 		}
 	}
+	else if(message.content.toLowerCase().includes('oh my god') || message.content.toLowerCase().includes('oh no') || message.content.toLowerCase().includes('oh shi'))
+	{
+		if(!message.author.bot){
+			message.channel.send({files: ["serious_shit.jpg"]});
+		}
+	}
 });
 
 client.on('guildMemberAdd', member => {
