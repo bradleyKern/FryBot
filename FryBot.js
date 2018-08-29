@@ -24,5 +24,20 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("Who has summoned me?");	
 		}
 	}
-	
+	else if(message.content.toLowerCase().includes('error'))
+	{
+		if(!message.author.bot){
+			message.channel.send("ë̡̱͇͉̖̮͈̥̾̇̀ͪ͛ͩ͊ͅŖ͚͔̞̳͙̻̙̪̮̻ͧ͆̏ͥ͆͒͒̐ͣͥ͋̍ͮ͒ͦ̀ͬ̚̕r̎̏ͨ̅̔̉̈́̑ͫ͆̋͊ͥͣ̂ͭ̒̚̚҉̶̶̱͍̲̗͚̯̳̣̥̙̣̬̖̫̙̺͜ȍ̗̖͍̜͈̱̝ͣͣ̆̈́̔ͤ̑͝R̢̎̓̎͌̿̑͛̅̃͑ͮ̎̌ͨͩ̈́͆̎̐́͝͝͏̘͉̦͇̥͓̭̙͖ͅͅ ̴̢̛̜̥̘̖͚̭̘̗̳̺̪̘̩ͯͤ͒̇̅̃̋͋̋́̍ͫͭͪͩͮ̀ͯ͜E̿̄͐͐͏͏̸̞͎̰̦͟R͍̺̭͔̯ͫ͛̅̓̚͢͠R̞̘̦̝͍̮̞̫̥̬̻̰̟̤̺͙̲̬̂ͥͬ̾̎͛ͩ͆͆̋̑ͪ͠ͅỎ̆͋̿̇̿ͥ̽ͩͧͥ҉̜̟̰͚̼̤͕̼̗̱̪̱̮̟̗̩͠͠R͇͍̠̟̱̜͉̞̪͕̱͉̜͇̃ͭ̿ͣ̋̐͗̀ͪ̃͆̓̇͝ ̡̨͙͙̟͉̬͕̜͙͗̃ͫ͋͜͝ͅȨ̶̴̡̰̟̹̟͖̪͍̜ͯ̈́ͫ̆̔̀̃̓͒̊̅̎ͧ̍ͅř̔̆͗͘͝͏͍̤̗̠͍̭̭̖o̢̡̘̮̥͕̪͚ͦ̔̅̿̃̑̑̅́̋͛͆̑͋ͨ̊ͣ̊͢R̴̥̝̟̱̭̼̩͒͒̽ͪͣͧͩ̾̐̈́͗ͮͣ̐̂͗̃͛̔̀͞ọ̢̰͕̭͓̥̹̤̩̥̯́̇̆ͮ͒ͪ͘͞r̡͇̟̠͕̺̳̘̟̬̬͎͖̿ͫ́ͭ̎ͣ̈͠o̒͋̍̃̿̒ͣ̃͏̴̣̰̩̮͓͇̠̘̼̯̫̞̻̹͔͈̼̮r̨̛̻͓̝̱̟̝̩͔͙̭̝̂ͫ̊̍ͧ̍̂͋͐͞͝ǫ̣̱͍͔̩̞̠̗̺̺̹̔͗ͩ͋̏̋ͪͨ͐̊̀ͫ̒̓͘r̸̡̡̪̻̳̙̭͉̻̭ͪͣ̓̀̑ͤ̏ͨ͒ͯ͌̿̀ĕ̡̟͉͚̪̠̥͔̻͙̪͔̺̼͉͒͑͗͊̐ͩ̀͘͜͞ͅͅr̢̠͙̣͔̲͇̻̹̪͉͈̼̟͉̤̦͉͋ͭ̓̍̐͐ͬͨ͒͊̃͒̽̅̓͋͝ơ̴̶̞̙̲̰͈̻̩̻̱͉ͪ͒ͧͦ̚r̵͌͊ͨ͋̐҉̦͈̮͍̖͢͡ͅo͐͊̃̓͡҉̥͙͖̪̯͈̬̻̳̙");	
+		}
+	}
+	else if(message.content.toLowerCase().includes('waluigi'))
+	{
+		if(!message.author.bot){
+			message.channel.send("WAH");	
+		}
+	}
+});
+
+client.on('guildMemberAdd', member => {
+	message.channel.send("Whoa there " + member.user.username + " , I'm gonna need to see some ID there buddy.", {files: ["https://3.imimg.com/data3/IC/FW/MY-13121895/bouncer-security-services-500x500.jpg"]});
 });
