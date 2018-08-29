@@ -42,6 +42,12 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send({files: ["serious_shit.jpg"]});
 		}
 	}
+	else if(message.content.toLowerCase().includes('za warudo') || message.content.toLowerCase().includes('jojo reference') || message.content.toLowerCase().includes('oraoraora'))
+	{
+		if(!message.author.bot){
+			message.channel.send("Yo is that a motherfucking Jojo reference?");
+		}
+	}
 });
 
 client.on('guildMemberAdd', member => {
