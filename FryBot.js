@@ -57,10 +57,10 @@ client.on('message', message => { // This is where we will handle all message ev
 	else if(message.content.toLowerCase().includes('thot'))
 	{
 		if(!message.author.bot){
-			message.channel.send({files: ["thot_destroyer.png"]});	
+			message.channel.send("THOT DETECTED", {files: ["thot_destroyer.png"]});	
 		}
 	}
-	else if(message.content.toLowerCase().includes('i am a furry') || message.content.toLowerCase().includes('i\'m a furry'))
+	else if(message.content.toLowerCase().includes('i am a furry') || message.content.toLowerCase().includes('i\'m a furry') || message.content.toLowerCase().includes('im a furry'))
 	{
 		if(!message.author.bot){
 			message.channel.send("No you\'re not, " + message.author);	
