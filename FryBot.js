@@ -66,10 +66,10 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("No you\'re not, " + message.author);	
 		}
 	}
-	else if(message.content.toLowerCase().includes('furry'))
+	else if(message.content.toLowerCase().includes('furry') || message.content.toLowerCase().includes('furries'))
 	{
 		if(!message.author.bot){
-			message.channel.send("Speaking of furries, here's @everyone \'s friendly reminder that being a furry is a bannable offense.");	
+			message.channel.send("Speaking of furries, here's everyone's friendly reminder that being a furry is a bannable offense.");	
 		}
 	}
 });
