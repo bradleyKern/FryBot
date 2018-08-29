@@ -48,6 +48,30 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("Yo is that a motherfucking Jojo reference?");
 		}
 	}
+	else if(message.content.toLowerCase().includes('hot take'))
+	{
+		if(!message.author.bot){
+			message.channel.send("Here\'s a hot take: While they may have their place in some games, DLC and microtransactions have yielded a net negative on the gaming industry since their introduciton.");	
+		}
+	}
+	else if(message.content.toLowerCase().includes('thot'))
+	{
+		if(!message.author.bot){
+			message.channel.send({files: ["thot_destroyer.png"]});	
+		}
+	}
+	else if(message.content.toLowerCase().includes('i am a furry') || message.content.toLowerCase().includes('i\'m a furry'))
+	{
+		if(!message.author.bot){
+			message.channel.send("No you\'re not, " + message.author);	
+		}
+	}
+	else if(message.content.toLowerCase().includes('furry'))
+	{
+		if(!message.author.bot){
+			message.channel.send("Speaking of furries, here's @everyone \'s friendly reminder that being a furry is a bannable offense.");	
+		}
+	}
 });
 
 client.on('guildMemberAdd', member => {
