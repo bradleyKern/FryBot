@@ -48,12 +48,6 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("Yo is that a motherfucking Jojo reference?");
 		}
 	}
-	else if(message.content.toLowerCase().includes('hot take'))
-	{
-		if(!message.author.bot){
-			message.channel.send("Here\'s a hot take: While they may have their place in some games, DLC and microtransactions have yielded a net negative on the gaming industry since their introduciton.");	
-		}
-	}
 	else if(message.content.toLowerCase().includes('thot'))
 	{
 		if(!message.author.bot){
