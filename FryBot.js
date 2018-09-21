@@ -66,6 +66,12 @@ client.on('message', message => { // This is where we will handle all message ev
 			message.channel.send("Speaking of furries, here's everyone's friendly reminder that yiffing is a bannable offense.");	
 		}
 	}
+	else if(message.content.toLowerCase().includes('data'))
+	{
+		if(!message.author.bot){
+			message.channel.send("DATABASE DATABASE");	
+		}
+	}
 });
 
 client.on('guildMemberAdd', member => {
